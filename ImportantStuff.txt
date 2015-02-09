@@ -1,0 +1,30 @@
+In The Darkness v131111 by Dancorg
+
+Enhorabuena! Usted esta jugando una versión horriblemente temprana del In The Darkness que es un bla bla bla experimento bla bla aprender python bla bla pygame.
+
+Controles:
+
+izquierda y derecha: caminar 
+arriba: saltar
+abajo: mmmmh creo que nada
+shift: correr y saltar más alto(hace ruido)
+barra espaciadora: luz/bengala/whatever 
+
+Map editor:
+(Nota: los archivos map1.dat y map2.dat se sobreescriben automáticamente al cerrar el editor, al guardar un mapa nuevo, o sea cerrar el editor, crear una carpeta nueva y colocar allí los .dat creados)
+
+click izq: colocar plataforma
+click medio: borrar platadorma (algo bugueado :P)
+click der: colocar enemigo (no se puede borrar :()
+a = piedras grises (no escalables)
+s = piedras marrones (escalables)
+q = monstruo rojo
+w = monstruo gris
+e = monstruo invisible
+1-6: ditintos tamaños predeterminados de plataformas
+barra: plataforma tamaño custom
+
+¿Cómo se juega?
+Todavía no hay un objetivo, ni mapas, ni historia, ni texturas, ni sonidos, ni música, ni etc, pero se podría decir que la idea es explorar el mapa y llegar a la luz al final del camino. Los enemigos son muy ágiles y extremadamente agresivos y hay básicamente dos tipos: los comunes, que solo ven al jugador cuando esta iluminado o hace mucho ruido (cuando corre o cae de cierta altura) y los invisibles que lo pueden ver en la oscuridad asi como escucharlo aunque quedan inmovilizados al ser cegados.
+
+
