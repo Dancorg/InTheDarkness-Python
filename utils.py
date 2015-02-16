@@ -1,5 +1,17 @@
 import math
 
+black = [0,0,0,255] #colores
+white = [255,255,255,150]
+gray = [50,50,50,255]
+brown = [30,15,5,255]
+blue = [50,50,150,255]
+light_blue = [120,120,180,255]
+green = [50,255,50,255]
+red = [50,10,20,255]
+strong_red = [150,30,40,255]
+yellow = [255,255,0,255]
+yellow2 = [200,180,50,170]
+
 def scan_grid( x1, y1, x0, y0,qual,grid,tipos = []): #DEPRECATED?
     x0 = int(x0)
     x1 = int(x1)
@@ -56,7 +68,7 @@ def scan(s,t,p,typ=True): #linea de vision: muchas cosas feas de algebra
         a2 = [t[0], t[1]]
     dis1 = fast_point_distance(a1,a2)
 
-    def scanB(dat1,dat2,dat3,dat4): #funcion dentro de otra funcion, funception :D
+    def scanB(dat1,dat2,dat3,dat4): 
         den = ((dat4[1]-dat3[1])*(dat2[0]-dat1[0]))-((dat4[0]-dat3[0])*(dat2[1]-dat1[1]))
         if den == 0:
             return False #None
